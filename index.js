@@ -16,5 +16,6 @@ function bind(fn, thisObj) {
 }
 
 const obj1 = bind(logger, obj);
-
 obj1();
+
+console.log("hello world");
