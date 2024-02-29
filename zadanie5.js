@@ -49,6 +49,7 @@ women.set("Liya");
 console.log(women.get());
 
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const arr1 = [1, 2, 3, 5, 6, 7, 8, 9];
 const total = 13;
 
 const firstSum = (arr, total) => {
@@ -65,5 +66,6 @@ const firstSum = (arr, total) => {
 };
 
 console.log(firstSum(arr, total));
+console.log(firstSum(arr1, total));
 
 //Сложность O(n^2) тк я для каждого i итерируюсь по массиву находя подходящее j
